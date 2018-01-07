@@ -1,0 +1,265 @@
+/*
+    VER
+        - AS COISAS NAO SE ADAPTAM CONFORME O TAMANHO DA JANELA
+
+*/
+
+body{
+    background-color: #eeeeee;
+}
+
+.grid{
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #ffffff ;
+    padding: 0px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1{
+    font-family: sans-serif;
+    background-color: #57636e;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 20px;
+}
+
+.grid #question{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
+}
+
+/*------------------------------------------------------------------------ HOMEPAGE*/
+.HeadHomepage{
+    background-color: #57636e;
+    padding: 2px 0px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+ .HeadHomepage h1{
+     font-family: sans-serif;
+     font-size: 35px;
+     text-align: center;
+     color: #ffffff;
+     padding: 0px;
+     margin: 10px 0px 0px 0px;
+ }
+.HeadHomepage h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.titulotema{
+    padding: 2px 0px;
+    margin: 110px auto;
+}
+
+.homepage h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
+    text-align: center;
+}
+
+#start{
+    background: #57636e;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 0px 0px 0px 1110px;
+}
+
+#start:hover {
+    background: #728591;
+    text-decoration: none;
+}
+
+#start:focus{
+    outline: 0;
+}
+/*------------------------------------------------------------------------FIM HOMEPAGE*/
+
+/*------------------------------------------------------------------------ SLIDES GERAIS*/
+
+.slides h1{
+    font-family: sans-serif;
+    background-color: #57636e;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.NextBack{
+    display: inline-block;
+}
+
+#next{
+    background: #57636e;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 0px 0px 0px 1010px;
+}
+
+#next:hover {
+    background: #728591;
+    text-decoration: none;
+}
+
+#next:focus{
+    outline: 0;
+}
+
+#back{
+    background: #57636e;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+
+#back:hover {
+    background: #728591;
+    text-decoration: none;
+}
+
+#back:focus {
+    outline: 0;
+}
+
+.ConteudoSlide{
+    background: #c0c0c0;
+    padding: 200px 0px 200px 0px;
+    margin: 0px;
+}
+
+/*------------------------------------------------------------------------FIM SLIDES GERAIS*/
+
+/*------------------------------------------------------------------------ SLIDES 1*/
+
+
+/*------------------------------------------------------------------------FIM SLIDES 1*/
+
+
+/*------------------------------------------------------------------------INICIAR QUIZ*/
+.IniciarQuiz{
+    margin: 0 auto;
+    width:45%;
+}
+
+#iniciar{
+    background: #57636e;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 10px;
+    width: 500px;
+}
+
+#iniciar:hover {
+    background: #728591;
+    text-decoration: none;
+}
+
+#iniciar:focus{
+    outline: 0;
+}
+
+#home{
+    background: #57636e;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 10px;
+    width: 500px;
+
+}
+
+#home:hover {
+    background: #728591;
+    text-decoration: none;
+}
+
+#home:focus {
+    outline: 0;
+}
+
+.grid #TextoIniciaQuiz{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #5a6772;
+    text-align: center;
+}
+/*------------------------------------------------------------------------FIM INICIAR QUIZ*/
+
+
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0,#btn1,#btn2,#btn3{
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 45px 10px 0px;
+    padding: 10px 10px;
+}
+
+#score{
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#progress{
+    color: #2b2b2b;
+    font-size: 18px;
+    text-align: center;
+}
+
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+    cursor: pointer;
+    background-color: #57636e;
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+    outline: 0;
+}
