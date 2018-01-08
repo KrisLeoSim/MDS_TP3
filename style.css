@@ -154,8 +154,14 @@ body{
 
 .ConteudoSlide{
     background: #c0c0c0;
-    padding: 200px 0px 200px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px;
+}
+
+.ConteudoSlide img {
+	
+	width:100%;
+    height:400px;
 }
 
 /*------------------------------------------------------------------------FIM SLIDES GERAIS*/
