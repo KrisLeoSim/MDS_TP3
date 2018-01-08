@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .idea/MDS_TP3_vf.iml
 .idea/modules.xml
 .idea/vcs.xml
@@ -7,3 +8,8 @@
 .idea/workspace.xml
 *.xml
 .idea/workspace.xml
+=======
+.idea/workspace.xml
+.idea/workspace.xml
+*.xml
+>>>>>>> 346c133a4c87a20f369476a8672c6044e8c90233
