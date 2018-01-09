@@ -120,6 +120,7 @@ body{
     border: solid #000000 2px;
     text-decoration: none;
     margin: 0px 0px 0px 1010px;
+	
 }
 
 #next:hover {
@@ -154,7 +155,8 @@ body{
 
 .ConteudoSlide{
     background: #c0c0c0;
-    padding: 0px 0px;
+    padding: 0px 0px 0px 0px;
+	margin: 0px;
     
 }
 
