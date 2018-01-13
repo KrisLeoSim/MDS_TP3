@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+
+<html>
 <head>
 <title>Experiencing Agile</title>
 <meta charset="iso-8859-1">
@@ -26,16 +27,19 @@
   <div id="container" class="clear">
     <hr style="margin-top: 5px">
     <div class="ConteudoPagina">
-      <h1>Conteudo sobre Testing and continuous integration in Agile</h1>
+      <h1>Quiz - Integration</h1>
     </div>
     <hr style="margin-top: 5px">
-    <div class="Conteudoimg">
-     <!--  <img src="img/TestingIntegration/" /> -->
-    </div>
-    <div class="ParaBotoesConteudo">
-      <a href="MenuTemas.html"><button id="Voltar">VOLTAR</button></a>
-      <a href="QuizTestingIntegration.html"><button id="Seguinte">SEGUINTE</button></a>
-    </div>
+      <p id="question"></p>
+      <div class="buttons">
+        <button id="btn0"><span id="choice0"></span></button>
+        <button id="btn1"><span id="choice1"></span></button>
+        <br>
+        <button id="btn2"><span id="choice2"></span></button>
+        <button id="btn3"><span id="choice3"></span></button>
+      </div>
+      <p id="progress">Question x of y.</p>
+
   </div>
 </div>
 <!-- Footer -->
@@ -45,5 +49,8 @@
     <p class="fl_right">Assignment 3 - Experiencing Agile</p>
   </footer>
 </div>
+<script src="quiz_controller.js"></script>
+<script src="question.js"></script>
+<script type="text/javascript" src="app_Integration.js" charset="utf-8"></script>
 </body>
 </html>

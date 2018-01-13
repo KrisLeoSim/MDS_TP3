@@ -50,6 +50,9 @@ var questions = [
     new Question("pergunta 5 ... ?",["RespA","RespB","RespC","RespD"], "RespA")*/
 ];
 
+
 var quiz = new Quiz(questions);
+
+
 
 populate();
