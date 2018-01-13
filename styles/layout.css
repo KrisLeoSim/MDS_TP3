@@ -268,6 +268,43 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
     outline: 0;
 }
 
+#question{
+    font-size: 20px;
+    text-align: center;
+}
+
+#progress{
+    color: #2b2b2b;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buttons{
+    width: 100%;
+    text-align: center
+}
+
+#btn0,#btn1,#btn2,#btn3{
+    width: 460px;
+    height:130px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #333333;
+    border:#666666 1px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-style: inherit;
+    color: #D6D6D6;
+}
+
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+    color: #FFFFFF;
+    background-color: #4b4b4b;
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+    outline: 0;
+}
 
 
 
