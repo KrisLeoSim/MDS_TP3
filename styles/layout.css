@@ -159,7 +159,11 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 .ConteudoPagina h1{
     text-align: center;
     text-transform:none;
-    font-size: 50px;
+    font-size: 30px;
+}
+
+.Conteudoimg img{
+    border: 2px;
 }
 
 .ParaMenuHomepage{
@@ -185,6 +189,33 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
     background-color: #4b4b4b;
 }
 #start:focus{
+    outline: 0;
+}
+
+
+
+.ParaBotoesConteudo{
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+}
+
+#Seguinte,#Voltar{
+    width: 200px;
+    padding: 10px;
+    margin: 0px;
+    background-color: #333333;
+    border:#666666 1px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-style: inherit;
+    color: #D6D6D6;
+}
+#Seguinte:hover,#Voltar:hover{
+    color: #FFFFFF;
+    background-color: #4b4b4b;
+}
+#Seguinte:focus,#Voltar:focus{
     outline: 0;
 }
 
