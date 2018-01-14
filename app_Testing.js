@@ -1,6 +1,7 @@
 function populate(){
     if(quiz.isEnded()){
-        showScores();
+        location.href="Resultados.html";
+        //showScores();
     }
     else{
         //show question
@@ -21,7 +22,7 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guess(guess);
+        quiz.guesstesting(guess);
         populate();
     }
 };
@@ -41,7 +42,7 @@ function showScores() {
 
 
 var questions = [
-    new Question("Testing: que posição +e esta _/''''\º ?",
+    new Question("Testing: que posição +e esta _/''''º ?",
         ["de 2 ", "de 3", "de 4", "de 5"],"de 4"),
    
 ];

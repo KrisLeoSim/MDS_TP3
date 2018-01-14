@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Experiencing Agile</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<script src="scripts/html5shiv.js"></script>
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Mestrado em Informática e Sistemas</a></h1>
+      <h2>Metodologias De Desenvolvimento de Software</h2>
+      <h2>2017/2018</h2>
+    </div>
+    <!--<nav>
+      <ul>
+        <li class="last"><a href="#">Text Link</a></li>
+      </ul>
+    </nav>-->
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <hr style="margin-top: 5px">
+    <div class="ConteudoPagina">
+      <h1>Resultados</h1>
+    </div>
+    <hr style="margin-top: 5px">
+  <div id="quiz">
+    <div class="restesting">
+      <p>Testing</p>
+      <p id="ptesting"></p>
+    </div>
+
+    <div class="resintegration">
+      <p>Integration</p>
+      <p id="pintegration"></p>
+    </div>
+
+    <div class="resmaster">
+      <p>Master</p>
+      <p id="pmaster"></p>
+    </div>
+
+
+    <div class="ParaBotoesConteudo">
+      <a href="MenuTemas.html"><button id="Voltar">VOLTAR</button></a>
+      <a href=""><button id="Seguinte">SEGUINTE</button></a>
+    </div>
+  </div>
+
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Kristhian Simões|Carlos Miranda|Diogo Ameal|Sérgio Grosso</p>
+    <p class="fl_right">Assignment 3 - Experiencing Agile</p>
+  </footer>
+</div>
+<script src="quiz_controller.js"></script>
+<script src="question.js"></script>
+<script type="text/javascript" src="app_Integration.js" charset="utf-8"></script>
+<script>
+        alert("chegou ao fim")
+        var element = document.getElementById("ptesting");
+        element.innerHTML = "" + quiz.scoretesting + "%";
+
+        var element = document.getElementById("pintegration");
+        element.innerHTML = "" + quiz.scoreintegration + "%";
+
+        var element = document.getElementById("pmaster");
+        element.innerHTML = "" + quiz.scoremaster + "%";
+
+</script>
+</body>
+</html>

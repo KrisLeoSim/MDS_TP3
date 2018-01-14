@@ -1,6 +1,7 @@
 function populate(){
     if(quiz.isEnded()){
-        showScores();
+        location.href="Resultados.html";
+        //showScores();
     }
     else{
         //show question
@@ -21,7 +22,7 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guess(guess);
+        quiz.guessmaster(guess);
         populate();
     }
 };
