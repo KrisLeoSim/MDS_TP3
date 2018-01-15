@@ -1,7 +1,6 @@
 function populate(){
     if(quiz.isEnded()){
-        location.href="Resultados.html";
-        //showScores();
+        showScores();
     }
     else{
         //show question
@@ -22,7 +21,7 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guessintegration(guess);
+        quiz.guess(guess);
         populate();
     }
 };
@@ -34,7 +33,7 @@ function showProgress() {
 }
 
 function showScores() {
-    alert("Entrou");
+    var gameOverHtml = "<h1>Result</h1>";
     gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
