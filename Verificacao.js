@@ -1,9 +1,9 @@
 function desbloqueia(){
-var resultadoT = getResultadoT();
-var resultadoI = getResultadoI();
+var resultadoT = 100;
+var resultadoI = 100;
 
-	if((resultadoT + resultadoI) >= 100){
-     window.location('TestingIntegrationConteudo_Slide1.html');
+	if(resultadoT >= 50 && resultadoI >= 50){
+     window.open('TestingIntegrationConteudo_Slide1.html');
 	}else{
 
 		if(resultadoT < 50 && resultadoI < 50){
