@@ -26,22 +26,24 @@
 <div class="wrapper row2">
   <div id="container" class="clear">
     <hr style="margin-top: 5px">
-    <div class="ConteudoPagina">
+
+    <div class="ConteudoPaginaResult">
       <h1>Resultados</h1>
     </div>
     <hr style="margin-top: 5px">
-  <div id="quiz">
-    <div class="restesting">
+  <div id="quiz" class="quizzz">
+
+    <div id="restesting">
       <p>Testing</p>
       <p id="ptesting"></p>
     </div>
 
-    <div class="resintegration">
+    <div id="resintegration">
       <p>Integration</p>
       <p id="pintegration"></p>
     </div>
-
-    <div class="resmaster">
+    <br>
+    <div id="resmaster">
       <p>Master</p>
       <p id="pmaster"></p>
     </div>
@@ -66,7 +68,7 @@
 <script src="question.js"></script>
 <script type="text/javascript" src="app_Integration.js" charset="utf-8"></script>
 <script>
-        alert("chegou ao fim")
+        //alert("chegou ao fim")
         var element = document.getElementById("ptesting");
         element.innerHTML = "" + quiz.scoretesting + "%";
 

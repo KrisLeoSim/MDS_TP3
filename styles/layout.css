@@ -307,10 +307,40 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 }
 
 
+#quiz{
+    text-align: center;
+    width: 100%;
+}
+
+#restesting{
+    background-color: #FFFFFF;
+    width: 40%;
+    float: left;
+}
+
+#resintegration{
+    background-color: #FFFFFF;
+    width: 40%;
+    float: right;
+}
 
 
+#resmaster{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
 
+.ConteudoPaginaResult h1{
+    text-align: center;
+    text-transform:none;
+    font-size: 30px;
+}
 
+.quizzz p{
+    font-size: 40px;
+}
 
 
 
