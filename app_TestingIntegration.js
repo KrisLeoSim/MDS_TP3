@@ -1,15 +1,16 @@
 function populate(){
-    if(quiz.isEnded()){
+    if(quizm.isEnded()){
+        localStorage.setItem('quizm', String(quizm.score));
         location.href="Resultados.html";
-        //showScores();
+
     }
     else{
         //show question
         var element = document.getElementById("question");
-        element.innerHTML=quiz.getQuestionIndex().text;
+        element.innerHTML=quizm.getQuestionIndex().text;
 
         // show choices
-        var choices = quiz.getQuestionIndex().choices;
+        var choices = quizm.getQuestionIndex().choices;
         for(var i = 0; i<choices.length; i++){
             var element = document.getElementById("choice" + i);
             element.innerHTML = choices[i];
@@ -22,22 +23,31 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guessmaster(guess);
+        quizm.guess(guess);
         populate();
     }
 };
 
 function showProgress() {
-    var currentQuestionNumber = quiz.questionIndex + 1;
+    var currentQuestionNumber = quizm.questionIndex + 1;
     var element = document.getElementById("progress");
-    element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
+    element.innerHTML = "Question " + currentQuestionNumber + " of " + quizm.questions.length;
 }
 
-function showScores() {
-    var gameOverHtml = "<h1>Result</h1>";
-    gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
-    var element = document.getElementById("quiz");
-    element.innerHTML = gameOverHtml;
+function imprimeresm(){
+    var element = document.getElementById("pmaster");    
+	var valor = null;
+    
+	if (localStorage.getItem('quizm')) {
+        valor = localStorage.getItem('quizm');
+   
+
+    element.innerHTML = "" + valor + "%";
+   }else{
+	  
+    element.innerHTML = "" + "N/A"+ ""; 
+	   
+   }
 };
 
 
@@ -47,7 +57,7 @@ var questions = [
   
 ];
 
-var quiz = new Quiz(questions);
+var quizm = new QuizM(questions);
 
 
 
