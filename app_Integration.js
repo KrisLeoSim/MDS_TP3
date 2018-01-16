@@ -1,7 +1,9 @@
 function populate(){
     if(quizi.isEnded()){
 
-		localStorage.setItem('quizi', String(quizi.score));
+	
+	
+		localStorage.setItem('quizi', String(quizi.score * 20));
         location.href="Resultados.html";
 		
     }
@@ -41,7 +43,7 @@ function imprimeresi(){
 	var valor = null;
     
 	if (localStorage.getItem('quizi')) {
-        valor = localStorage.getItem('quizi');
+        valor = parseInt(localStorage.getItem('quizi'));
    
 
     element.innerHTML = "" + valor + "%";

@@ -1,6 +1,9 @@
 function populate(){
     if(quizm.isEnded()){
-        localStorage.setItem('quizm', String(quizm.score));
+        
+		
+		
+		localStorage.setItem('quizm', String(quizm.score));
         location.href="Resultados.html";
 
     }
@@ -39,7 +42,7 @@ function imprimeresm(){
 	var valor = null;
     
 	if (localStorage.getItem('quizm')) {
-        valor = localStorage.getItem('quizm');
+        valor = parseInt(localStorage.getItem('quizm'));
    
 
     element.innerHTML = "" + valor + "%";

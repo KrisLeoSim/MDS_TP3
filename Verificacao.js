@@ -1,6 +1,24 @@
 function desbloqueia(){
-var resultadoT = 100;
-var resultadoI = 100;
+var resultadoT = null;
+var resultadoI = null;
+
+
+    
+	if (localStorage.getItem('quizi')) {
+        resultadoI = parseInt(localStorage.getItem('quizi'));
+		
+	}else{
+		resultadoI = 0;		
+	}
+	
+	if (localStorage.getItem('quizt')) {
+        resultadoT = parseInt(localStorage.getItem('quizt'));
+		
+	}else{
+		resultadoT = 0;
+		
+	}
+
 
 	if(resultadoT >= 50 && resultadoI >= 50){
      window.open('TestingIntegrationConteudo_Slide1.html');
