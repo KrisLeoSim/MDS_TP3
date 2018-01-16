@@ -44,10 +44,12 @@ var questions = [
         ["acelerar, aumentar", "acelerar, diminuir", "atrasar, diminuir", "atrasar, aumentar"],"acelerar, diminuir"),
     new Question("A integração contínua é necessária?",
         ["Não, pois aumenta a possibilidade de deslizes na entrega", "Não, pois é feita em grandes intervalos de tempo", "Sim, pois ajuda a identificar problemas e a tomar decisões apropriadas", "Sim, pois exige intervenção humana em grande parte do processo"], "Sim, pois ajuda a identificar problemas e a tomar decisões apropriadas"),
+    new Question("A integração pode ser _____, semanal, _____, sendo que deve ser feita, obviamente, de forma _____.",
+        ["diária, noturna, contínua","diária, mensal, descontínua","mensal, anual, descontinua","diária , anual, contínua"], "diária, noturna, contínua"),
     new Question("O sistema de controlo de versões resolve alguns problemas quando trabalhamos em equipa?",
         ["Não, pois partilha informações de forma a ter a última versão válida","Não, pois não previne que os developers refaçam o trabalho já desenvolvido","Sim, pois previne que os developers refaçam o trabalho já desenvolvido","Sim, pois partilha informações de forma a ter a primeira versão válida"], "Sim, pois previne que os developers refaçam o trabalho já desenvolvido"),
-   /* new Question("pergunta 4 ... ?",["RespA","RespB","RespC","RespD"], "RespD"),
-    new Question("pergunta 5 ... ?",["RespA","RespB","RespC","RespD"], "RespA")*/
+    new Question("Para a integração contínua é importante que a equipa possa trabalhar em grupo, para isso é importante que se tenha um sistema de controlo de versões, que tem como benefícios:",
+        ["Comparar código","Possibilidade de restauro de versões anteriores do sistema","Gerir as alterações efectuadas no sistema","Todas as anteriores"], "Todas as anteriores"),
 ];
 
 
