@@ -64,19 +64,19 @@
     <p class="fl_right">Assignment 3 - Experiencing Agile</p>
   </footer>
 </div>
-<script src="quiz_controller.js"></script>
+<script src="quiz_controller_testing.js"></script>
+<script src="quiz_controller_integration.js"></script>
+<script src="quiz_controller_master.js"></script>
 <script src="question.js"></script>
 <script type="text/javascript" src="app_Integration.js" charset="utf-8"></script>
+<script type="text/javascript" src="app_Testing.js" charset="utf-8"></script>
+<script type="text/javascript" src="app_TestingIntegration.js" charset="utf-8"></script>
 <script>
-        //alert("chegou ao fim")
-        var element = document.getElementById("ptesting");
-        element.innerHTML = "" + quiz.scoretesting + "%";
 
-        var element = document.getElementById("pintegration");
-        element.innerHTML = "" + quiz.scoreintegration + "%";
+        imprimerest();
+        imprimeresi();
+        imprimeresm();
 
-        var element = document.getElementById("pmaster");
-        element.innerHTML = "" + quiz.scoremaster + "%";
 
 </script>
 </body>

@@ -39,6 +39,11 @@ function showScores() {
     element.innerHTML = gameOverHtml;
 };
 
+function imprimeresi(){
+    var element = document.getElementById("pintegration");
+    element.innerHTML = "" + quizi.score + "%";
+};
+
 var questions = [
     new Question("'Continuous integration' é o processo que permite integrar alterações parciais de forma frequente ao longo do desenvolvimento do código, com o objetivo de _____ a entrega do software e _____ os tempos de integração.",
         ["acelerar, aumentar", "acelerar, diminuir", "atrasar, diminuir", "atrasar, aumentar"],"acelerar, diminuir"),
@@ -51,7 +56,7 @@ var questions = [
 ];
 
 
-var quiz = new Quiz(questions);
+var quiz = new QuizI(questions);
 
 
 

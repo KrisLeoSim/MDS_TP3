@@ -22,7 +22,7 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guesstesting(guess);
+        quiz.guess(guess);
         populate();
     }
 };
@@ -40,6 +40,10 @@ function showScores() {
     element.innerHTML = gameOverHtml;
 };
 
+function imprimerest(){
+    var element = document.getElementById("ptesting");
+    element.innerHTML = "" + quiz.score + "%";
+};
 
 var questions = [
     new Question("Testing: que posição +e esta _/''''º ?",
@@ -49,7 +53,9 @@ var questions = [
 
 
 
-var quiz = new Quiz(questions);
+
+
+var quiz = new QuizT(questions);
 
 
 

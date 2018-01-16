@@ -22,7 +22,7 @@ function populate(){
 function guess(id,guess) {
     var button = document.getElementById(id);
     button.onclick = function(){
-        quiz.guessmaster(guess);
+        quiz.guess(guess);
         populate();
     }
 };
@@ -40,6 +40,11 @@ function showScores() {
     element.innerHTML = gameOverHtml;
 };
 
+function imprimeresm(){
+    var element = document.getElementById("pmaster");
+    element.innerHTML = "" + quizm.score + "%";
+};
+
 
 var questions = [
     new Question("Testing + Integration Como se chama a mãe do kris ?",
@@ -47,7 +52,7 @@ var questions = [
   
 ];
 
-var quiz = new Quiz(questions);
+var quiz = new QuizM(questions);
 
 
 
