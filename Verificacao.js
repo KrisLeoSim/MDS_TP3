@@ -21,7 +21,7 @@ var resultadoI = null;
 
 
 	if(resultadoT >= 50 && resultadoI >= 50){
-     window.open('TestingIntegrationConteudo_Slide1.html');
+     location.href = "TestingIntegrationConteudo_Slide1.html";
 	}else{
 
 		if(resultadoT < 50 && resultadoI < 50){
