@@ -3,7 +3,7 @@ function populate(){
         
 		
 		
-		localStorage.setItem('quizm', String(quizm.score));
+		localStorage.setItem('quizm', String(quizm.score * 20));
         location.href="Resultados.html";
 
     }
