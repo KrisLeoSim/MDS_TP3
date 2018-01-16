@@ -1,7 +1,6 @@
 function populate(){
     if(quizi.isEnded()){
-		
-		
+
 		localStorage.setItem('quizi', String(quizi.score));
         location.href="Resultados.html";
 		
