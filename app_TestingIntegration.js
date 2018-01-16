@@ -64,12 +64,12 @@ var questions = [
     new Question("Os testes _____ concentram-se numa única “unidade de código”, geralmente uma função de um objecto ou módulo.",
         ["de integração","funcionais","unitários","de aceitação"],
         "unitários"),
-    new Question("Ao usar o BDD como cenário de teste, a equipa tem a possibilidade de manter a documentação viva, obter o feedback rápido e alinhar a comunicação com a equipa e com o cliente. Para escrever bons cenários, "
+    new Question("Ao usar o BDD como cenário de teste, a equipa tem a possibilidade de manter a documentação viva, obter o feedback rápido e alinhar a comunicação com a equipa e com o cliente. Para escrever bons cenários, ",
         ["A equipa deve ser envolvida no processo","Devem descrever o comportamento passo a passo","Os cenários devem ser dependentes","Não se deve seguir a linguagem da história do utilizador"],
         "A equipa deve ser envolvida no processo"),
     new Question("TDD (Test Driven Development) é um desenvolvimento orientado por _____ , isto é, depois de efectuar a implementação da/do _____  cria-se a/o _____ .",
         ["funcionalidades,teste,funcionalidade","testes,teste,funcionalidade","testes,funcionalidade,teste","funcionalidades,funcionalidade,teste"],
-        ""),
+        "testes,funcionalidade,teste"),
 ];
 
 var quizm = new QuizM(questions);
