@@ -1,7 +1,7 @@
 function populate(){
     if(quizt.isEnded()){
         
-		localStorage.setItem('quizt', String(quizt.score));
+		localStorage.setItem('quizt', String(quizt.score * 16.6666667));
         location.href="Resultados.html";
      
     }
@@ -41,7 +41,7 @@ function imprimerest(){
     var valor = null;
     
 	if (localStorage.getItem('quizt')) {
-        valor = localStorage.getItem('quizt');
+        valor = parseInt(localStorage.getItem('quizt'));
    
 
     element.innerHTML = "" + valor + "%";
